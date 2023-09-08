@@ -3,6 +3,7 @@
 It’s a project that focuses on predicting multiple target variables using multioutput regression. The project utilizes a dataset called RUL_database, which is loaded from a CSV file containing various parameters related to wire rod production.
 
 The main objective of the project is to predict the values of multiple target variables simultaneously based on the given input features. The target variables represent different aspects of wire rod production, such as Cast Bar Temperature, Casting Water Temperature, Emulsion Temperature, RAC Water Temperature, Casting Water Flow, Emulsion Pressure Flow, Gear Oil Pressure, Gear Oil Temperature, Casting Pressure, RAC Pressure, and Tundish Temperature whereas the features are ultimate tensile strength and conductivity.
+
 Multioutput Regression Model:
 
 The project utilizes the MultiOutputRegressor from sklearn.multioutput, which combines multiple single-output regressors into a multioutput regression model.
